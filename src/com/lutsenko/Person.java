@@ -1,10 +1,10 @@
 package com.lutsenko;
 
 public class Person {
-    String name;
-    String surName;
-    String lastName;
-    String birthday;
+    private String name;
+    private String surName;
+    private String lastName;
+    private String birthday;
 
     public Person(String fullName) {
         var names = fullName.split(" ");
